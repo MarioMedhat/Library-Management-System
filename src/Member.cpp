@@ -59,3 +59,8 @@ void Member::displayBorrowedBooks() const
         std::cout << book.getTitle() << std::endl;
     }
 }
+
+std::vector<Book> Member::returnBorrowedBooks() const
+{
+   return borrowedBooks;
+}

@@ -14,6 +14,7 @@ class Member
         void borrowBook(Book& book);
         void returnBook(Book& book);
         void displayBorrowedBooks() const;
+        std::vector<Book> returnBorrowedBooks() const;
         
     private:
         std::string name;
